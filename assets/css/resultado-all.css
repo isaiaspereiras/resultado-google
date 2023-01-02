@@ -1,0 +1,218 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header .fixed-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+header .fixed-bar .parte-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header .fixed-bar .parte-1 .logo {
+    margin-left: 20px;
+}
+header .fixed-bar .parte-1 .pesquisa {
+    margin-left: 40px;
+}
+header .fixed-bar .parte-1 .pesquisa .pesquisa-in {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 20px;
+    padding-right: 10px;
+    max-width: 700px;
+    width: 48vw;
+    box-shadow: 0px 3px 5px rgba(124, 124, 124, 0.514);
+}
+header .pesquisa .pesquisa-in input {
+    outline: 0;
+    border: none;
+    width: 80%;
+    font-size: 16px;
+}
+header .pesquisa .pesquisa-in .material-symbols-outlined {
+    margin-right: 10px;
+    color: rgb(68, 68, 68);
+}
+header .pesquisa .pesquisa-in .closed {
+    margin-right: 20px;
+}
+header .fixed-bar .perfil {
+    margin-right: 36px;
+}
+header .fixed-bar .perfil .perfil-in ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header .fixed-bar .perfil .perfil-in li {
+    width: 38px;
+}
+header .fixed-bar .perfil .perfil-in li img {
+    width: 100%;
+    border-radius: 50%;
+}
+header .menu-inferior {
+    max-width: 700px;
+    width: 48vw;
+    margin-left: 180px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+header .menu-inferior div ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header .menu-inferior div ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+    padding: 30px 0px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #303134;
+}
+header .menu-inferior div ul li:hover {
+    color: blue;
+    border-bottom: 3px solid #00f;
+}
+header .menu-inferior div ul .material-symbols-outlined {
+    font-size: 20px;
+}
+header .menu-inferior .menu-right {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+header .menu-inferior .menu-right a {
+    text-decoration: none;
+    color: #303134;
+    margin-left: 40px;
+    font-size: 14px;
+}
+header .menu-inferior .menu-right a:hover {
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+header .bar-bottom {
+    border-bottom: 1px solid #ddd;
+}
+aside {
+    margin-left: 180px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #313235d3;
+}
+main {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+main article {
+    margin-top: 30px;
+}
+main article section {
+    width: 620px;
+}
+main article section .first-p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+main article section .first-p .material-symbols-outlined  {
+    font-size: 15px;
+    color: #303134c9;
+}
+main article section a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #00f;
+}
+main article section a:hover {
+    text-decoration: underline;
+}
+main article section .secund-p {
+    font-size: 14px;
+    color: #303134c4;
+    margin-top: 5px;
+}
+.number-google {
+    margin-left: 180px;
+    margin-top: 30px;
+    max-width: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.number-google .photos img {
+    height: 50px;
+}
+.number-google .numbers ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.number-google .numbers ul li a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: rgb(13, 63, 201);
+    font-size: 14px;
+}
+.number-google .numbers ul li a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #f9f9f9;
+    margin-top: 30px;
+}
+footer .superior,
+footer .inferior {
+    margin-left: 180px;
+    max-width: 620px;
+    font-size: 14px;
+}
+footer .superior ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+footer .superior ul li {
+    padding:20px 10px;
+    color: #45474b;
+}
+footer .superior ul a {
+    text-decoration: none;
+    color: #00f;
+    font-size: 14px;
+}
+footer .superior ul strong {
+    color: #45474b;
+}
+footer .bar-bottom {
+    border-bottom: 1px solid #ddd;
+}
+footer .inferior ul {
+    display: flex;
+    list-style: none;
+}
+footer .inferior ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+footer .inferior ul a {
+    color: #414246;
+    text-decoration: none;
+}
